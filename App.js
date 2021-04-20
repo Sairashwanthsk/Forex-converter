@@ -51,7 +51,7 @@ class App extends Component {
         <div className="row">
           <div className="col-lg-6 mx-auto">
             <div className="card card-body">
-              <h5 className="text-primary">{amount} {base} is equivalent to</h5>
+              <h5 className="text-secondary">{amount} {base} is equivalent to</h5>
               <h2 className="text-success">{result} {convertTo}</h2>
               <p>{date}</p>
               <div className="row">
